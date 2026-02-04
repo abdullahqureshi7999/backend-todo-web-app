@@ -1,6 +1,4 @@
-def main():
-    print("Hello from todo-backend!")
+"""ASGI entry point for deployment platforms"""
+from src.main import app
 
-
-if __name__ == "__main__":
-    main()
+__all__ = ["app"]
